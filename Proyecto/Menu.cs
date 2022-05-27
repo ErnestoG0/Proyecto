@@ -35,5 +35,12 @@ namespace Proyecto
             historialAcademico.Show();
             this.Close();
         }
+
+        private void btnAltaBajaModificacion_Click(object sender, EventArgs e)
+        {
+            ModificacionAlumnos modificacionAlumnos = new ModificacionAlumnos();
+            modificacionAlumnos.Show();
+            this.Close();
+        }
     }
 }

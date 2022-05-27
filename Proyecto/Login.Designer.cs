@@ -62,28 +62,31 @@
             // 
             // btn_Iniciar
             // 
+            this.btn_Iniciar.BackColor = System.Drawing.Color.Gold;
             this.btn_Iniciar.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_Iniciar.Location = new System.Drawing.Point(173, 575);
             this.btn_Iniciar.Name = "btn_Iniciar";
             this.btn_Iniciar.Size = new System.Drawing.Size(108, 42);
             this.btn_Iniciar.TabIndex = 2;
             this.btn_Iniciar.Text = "Iniciar";
-            this.btn_Iniciar.UseVisualStyleBackColor = true;
+            this.btn_Iniciar.UseVisualStyleBackColor = false;
             this.btn_Iniciar.Click += new System.EventHandler(this.btn_Iniciar_Click);
             // 
             // btn_Cancelar
             // 
+            this.btn_Cancelar.BackColor = System.Drawing.Color.Gold;
             this.btn_Cancelar.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_Cancelar.Location = new System.Drawing.Point(296, 575);
             this.btn_Cancelar.Name = "btn_Cancelar";
             this.btn_Cancelar.Size = new System.Drawing.Size(108, 42);
             this.btn_Cancelar.TabIndex = 3;
             this.btn_Cancelar.Text = "Cancelar";
-            this.btn_Cancelar.UseVisualStyleBackColor = true;
+            this.btn_Cancelar.UseVisualStyleBackColor = false;
             this.btn_Cancelar.Click += new System.EventHandler(this.btn_Cancelar_Click);
             // 
             // txt_Usuario
             // 
+            this.txt_Usuario.BackColor = System.Drawing.Color.Gold;
             this.txt_Usuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_Usuario.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txt_Usuario.Location = new System.Drawing.Point(173, 377);
@@ -93,6 +96,7 @@
             // 
             // txt_Contraseña
             // 
+            this.txt_Contraseña.BackColor = System.Drawing.Color.Gold;
             this.txt_Contraseña.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_Contraseña.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txt_Contraseña.Location = new System.Drawing.Point(173, 501);
@@ -103,7 +107,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.White;
+            this.pictureBox1.BackColor = System.Drawing.Color.Gold;
             this.pictureBox1.Image = global::Proyecto.Properties.Resources.administrador;
             this.pictureBox1.Location = new System.Drawing.Point(173, 82);
             this.pictureBox1.Name = "pictureBox1";

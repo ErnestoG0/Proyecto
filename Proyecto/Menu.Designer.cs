@@ -121,6 +121,7 @@
             this.btnAltaBajaModificacion.Size = new System.Drawing.Size(119, 118);
             this.btnAltaBajaModificacion.TabIndex = 6;
             this.btnAltaBajaModificacion.UseVisualStyleBackColor = false;
+            this.btnAltaBajaModificacion.Click += new System.EventHandler(this.btnAltaBajaModificacion_Click);
             // 
             // Menu
             // 
