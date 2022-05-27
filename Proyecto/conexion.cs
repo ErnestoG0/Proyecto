@@ -165,44 +165,33 @@ namespace Proyecto
             return  salida = "0";
             
         }
-        //public string Insertaralumno()
-        //{
-        //    string salida = "Se insertó Registro";
-        //    try
-        //    {
-        //        //Crear un Objeto comando
-        //        SqlCommand cmd = new SqlCommand("dbo.SP_INSERTAR_CARTAS", cn);
+        public string GenerarNomina(string ID, string Descripcion, string Monto, string Fecha, string IDNomina)
+        {
+            string salida = "Se registro una nomina";
+            try
+            {
+                //Crear un Objeto comando
+                SqlCommand cmd = new SqlCommand("dbo.Registrar_ALumno", cn);
 
-        //        //Indicar que sera Store Procedure
+                //Indicar que sera Store Procedure
 
-        //        cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                cmd.CommandType = CommandType.StoredProcedure;
 
-        //        //se limpian los parámetros 			
-        //        cmd.Parameters.AddWithValue("@Nombre_Carta", Nombre_Carta);
-        //        cmd.Parameters.AddWithValue("@Codigo_Expansion", Codigo_Expansion);
-        //        cmd.Parameters.AddWithValue("@Atributo", Atributo);
-        //        cmd.Parameters.AddWithValue("@Tipo", Tipo);
-        //        cmd.Parameters.AddWithValue("@ATK", ATK);
-        //        cmd.Parameters.AddWithValue("@DEF", DEF);
-        //        cmd.Parameters.AddWithValue("@Rareza", Rareza);
-        //        cmd.Parameters.AddWithValue("@Arquetipo", Arquetipo);
-        //        cmd.Parameters.AddWithValue("@Idioma", Idioma);
-        //        cmd.Parameters.AddWithValue("@Cantidad", Cantidad);
-        //        cmd.Parameters.AddWithValue("@Nivel_Rango", Nivel_Rango);
-        //        cmd.Parameters.AddWithValue("@Numero", Numero);
-        //        cmd.Parameters.AddWithValue("@ZonasLink", ZonasLink);
+                //se limpian los parámetros
+                cmd.Parameters.AddWithValue("@AEID", ID);
+                cmd.Parameters.AddWithValue("@DescripcionNom ", Descripcion);
+                cmd.Parameters.AddWithValue("@MontoNomina ", Monto);
+                cmd.Parameters.AddWithValue("@FechaEmitida", Fecha);
+                cmd.Parameters.AddWithValue("@NominaID", IDNomina);
+                //Ejecutar la sentencia sql en el servidor
+                cmd.ExecuteNonQuery();
 
-        //        //Ejecutar la sentencia sql en el servidor
-        //        cmd.ExecuteNonQuery();
-
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        salida = "No se conecto: " + ex.ToString();
-        //    }
-        //    return salida;
-        //}
-        //    return "1";
-        //}
+            }
+            catch (Exception ex)
+            {
+                salida = "No se conecto: " + ex.ToString();
+            }
+            return salida;
+        }
     }
 }
