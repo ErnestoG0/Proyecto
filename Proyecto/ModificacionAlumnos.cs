@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Data;
-
+using Microsoft.Data.SqlClient;
 
 namespace Proyecto
 {
@@ -36,82 +36,6 @@ namespace Proyecto
         
         private void button1_Click(object sender, EventArgs e)
         {
-            //Conexion c = new Conexion();
-
-            
-            //String cs = c.consultaralumno(textcurp.Text);
-            //if (cs == "Se modifico a un alumno")
-            //{
-            //    SqlConnection cn;
-            //    SqlCommand cmd;
-            //    SqlDataReader dr;
-            //    try
-            //    {
-
-            //        //Declarar la cadena (objeto) de conexión al servidor   
-            //        cn = new SqlConnection("Data Source=localhost;Initial Catalog=AdmiEscolar;Integrated Security=True");
-            //        cn.Open();
-            //        //MessageBox.Show("Conectado");
-
-            //    }
-            //    catch (Exception ex)
-            //    {
-            //        MessageBox.Show("No se conectó con la base de datos: " + ex.ToString());
-            //    }
-            //    SqlCommand cmd = new SqlCommand("dbo.Consulta_curp", cn);
-            //    cmd.CommandType = CommandType.StoredProcedure;
-
-            //    //se limpian los parámetros 			
-            //    cmd.Parameters.AddWithValue("@AlumCURP", textcurp.Text);
-            //    SqlDataReader Registro = cmd.ExecuteReader();
-            //    if (Registro.Read())
-            //    {
-            //        textBox4.Text = Registro["AlumNombre"].ToString();
-            //        textBox1.Text = Registro["AlumApellidoPat"].ToString();
-            //        textBox2.Text = Registro["AlumApellidoMa"].ToString();
-            //        comboBox1.Text = Registro["Grdo"].ToString();
-            //        comboBox2.Text = Registro["Grpo"].ToString();
-            //        textBox3.Text = Registro["AlumCURP"].ToString();
-
-            //    }
-            //    else
-            //    {
-            //        MessageBox.Show("No se encontro ese CURP");
-            //    }
-            //}
-            //try
-            //{
-
-            //    //Declarar la cadena (objeto) de conexión al servidor   
-            //    cn = new SqlConnection("Data Source=localhost;Initial Catalog=AdmiEscolar;Integrated Security=True");
-            //    cn.Open();
-            //    //MessageBox.Show("Conectado");
-
-            //}
-            //catch (Exception ex)
-            //{
-            //    MessageBox.Show("No se conectó con la base de datos: " + ex.ToString());
-            //}
-            //SqlCommand cmd = new SqlCommand("dbo.Consulta_curp", cn);
-            //cmd.CommandType = CommandType.StoredProcedure;
-
-            ////se limpian los parámetros 			
-            //cmd.Parameters.AddWithValue("@AlumCURP", textcurp.Text);
-            //SqlDataReader Registro= cmd.ExecuteReader();
-            //if (Registro.Read())
-            //{
-            //   textBox4.Text=Registro["AlumNombre"].ToString();
-            //   textBox1.Text=Registro["AlumApellidoPat"].ToString();
-            //   textBox2.Text = Registro["AlumApellidoMa"].ToString();
-            //    comboBox1.Text = Registro["Grdo"].ToString();
-            //    comboBox2.Text = Registro["Grpo"].ToString();
-            //    textBox3.Text = Registro["AlumCURP"].ToString();
-                
-            //}
-            //else
-            //{
-            //    MessageBox.Show("No se encontro ese CURP");
-            //}
             
         }
 
