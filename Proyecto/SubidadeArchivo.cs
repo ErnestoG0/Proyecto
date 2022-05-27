@@ -84,6 +84,13 @@ namespace ProcesoIncripcion
             }
         }
 
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            DatosdeInscripcion datosdeInscripcion = new DatosdeInscripcion();
+            datosdeInscripcion.Show();
+            this.Close();
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             //configuracion  de algunos parametros del openFileDialog

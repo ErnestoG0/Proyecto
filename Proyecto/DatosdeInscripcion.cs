@@ -166,6 +166,16 @@ namespace ProcesoIncripcion
             }
         }
 
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void DatosdeInscripcion_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void btnPantallaArchivos_Click(object sender, EventArgs e)
         {
             
