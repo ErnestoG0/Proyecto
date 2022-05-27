@@ -53,7 +53,7 @@
             // 
             // btnPagoServicio
             // 
-            this.btnPagoServicio.Location = new System.Drawing.Point(52, 69);
+            this.btnPagoServicio.Location = new System.Drawing.Point(267, 64);
             this.btnPagoServicio.Name = "btnPagoServicio";
             this.btnPagoServicio.Size = new System.Drawing.Size(170, 23);
             this.btnPagoServicio.TabIndex = 0;
@@ -64,7 +64,7 @@
             // lblPagorecibo
             // 
             this.lblPagorecibo.AutoSize = true;
-            this.lblPagorecibo.Location = new System.Drawing.Point(52, 51);
+            this.lblPagorecibo.Location = new System.Drawing.Point(267, 46);
             this.lblPagorecibo.Name = "lblPagorecibo";
             this.lblPagorecibo.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.lblPagorecibo.Size = new System.Drawing.Size(73, 15);
@@ -77,7 +77,7 @@
             // 
             // txtPagoIncripcion
             // 
-            this.txtPagoIncripcion.Location = new System.Drawing.Point(228, 69);
+            this.txtPagoIncripcion.Location = new System.Drawing.Point(443, 64);
             this.txtPagoIncripcion.Name = "txtPagoIncripcion";
             this.txtPagoIncripcion.ReadOnly = true;
             this.txtPagoIncripcion.Size = new System.Drawing.Size(73, 23);
@@ -85,7 +85,7 @@
             // 
             // btnActaNacimiento
             // 
-            this.btnActaNacimiento.Location = new System.Drawing.Point(52, 136);
+            this.btnActaNacimiento.Location = new System.Drawing.Point(267, 131);
             this.btnActaNacimiento.Name = "btnActaNacimiento";
             this.btnActaNacimiento.Size = new System.Drawing.Size(170, 23);
             this.btnActaNacimiento.TabIndex = 3;
@@ -95,7 +95,7 @@
             // 
             // btnCurp
             // 
-            this.btnCurp.Location = new System.Drawing.Point(52, 196);
+            this.btnCurp.Location = new System.Drawing.Point(267, 191);
             this.btnCurp.Name = "btnCurp";
             this.btnCurp.Size = new System.Drawing.Size(170, 23);
             this.btnCurp.TabIndex = 4;
@@ -106,7 +106,7 @@
             // lblActa
             // 
             this.lblActa.AutoSize = true;
-            this.lblActa.Location = new System.Drawing.Point(52, 118);
+            this.lblActa.Location = new System.Drawing.Point(267, 113);
             this.lblActa.Name = "lblActa";
             this.lblActa.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.lblActa.Size = new System.Drawing.Size(112, 15);
@@ -116,7 +116,7 @@
             // lblCurp
             // 
             this.lblCurp.AutoSize = true;
-            this.lblCurp.Location = new System.Drawing.Point(52, 178);
+            this.lblCurp.Location = new System.Drawing.Point(267, 173);
             this.lblCurp.Name = "lblCurp";
             this.lblCurp.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.lblCurp.Size = new System.Drawing.Size(33, 15);
@@ -125,7 +125,7 @@
             // 
             // btnDomicilio
             // 
-            this.btnDomicilio.Location = new System.Drawing.Point(52, 252);
+            this.btnDomicilio.Location = new System.Drawing.Point(267, 247);
             this.btnDomicilio.Name = "btnDomicilio";
             this.btnDomicilio.Size = new System.Drawing.Size(170, 23);
             this.btnDomicilio.TabIndex = 7;
@@ -136,7 +136,7 @@
             // lblDomicilio
             // 
             this.lblDomicilio.AutoSize = true;
-            this.lblDomicilio.Location = new System.Drawing.Point(52, 234);
+            this.lblDomicilio.Location = new System.Drawing.Point(267, 229);
             this.lblDomicilio.Name = "lblDomicilio";
             this.lblDomicilio.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.lblDomicilio.Size = new System.Drawing.Size(124, 15);
@@ -145,7 +145,7 @@
             // 
             // txtActa
             // 
-            this.txtActa.Location = new System.Drawing.Point(228, 136);
+            this.txtActa.Location = new System.Drawing.Point(443, 131);
             this.txtActa.Name = "txtActa";
             this.txtActa.ReadOnly = true;
             this.txtActa.Size = new System.Drawing.Size(73, 23);
@@ -153,7 +153,7 @@
             // 
             // txtDomicilio
             // 
-            this.txtDomicilio.Location = new System.Drawing.Point(228, 252);
+            this.txtDomicilio.Location = new System.Drawing.Point(443, 247);
             this.txtDomicilio.Name = "txtDomicilio";
             this.txtDomicilio.ReadOnly = true;
             this.txtDomicilio.Size = new System.Drawing.Size(73, 23);
@@ -161,7 +161,7 @@
             // 
             // txtCurp
             // 
-            this.txtCurp.Location = new System.Drawing.Point(228, 196);
+            this.txtCurp.Location = new System.Drawing.Point(443, 191);
             this.txtCurp.Name = "txtCurp";
             this.txtCurp.ReadOnly = true;
             this.txtCurp.Size = new System.Drawing.Size(73, 23);
@@ -173,7 +173,7 @@
             // 
             // btnSubirDocumentos
             // 
-            this.btnSubirDocumentos.Location = new System.Drawing.Point(52, 354);
+            this.btnSubirDocumentos.Location = new System.Drawing.Point(267, 349);
             this.btnSubirDocumentos.Name = "btnSubirDocumentos";
             this.btnSubirDocumentos.Size = new System.Drawing.Size(249, 55);
             this.btnSubirDocumentos.TabIndex = 12;
@@ -188,7 +188,7 @@
             // lblCertificado
             // 
             this.lblCertificado.AutoSize = true;
-            this.lblCertificado.Location = new System.Drawing.Point(52, 299);
+            this.lblCertificado.Location = new System.Drawing.Point(267, 294);
             this.lblCertificado.Name = "lblCertificado";
             this.lblCertificado.Size = new System.Drawing.Size(128, 15);
             this.lblCertificado.TabIndex = 13;
@@ -196,7 +196,7 @@
             // 
             // btnCertificadoPrimaria
             // 
-            this.btnCertificadoPrimaria.Location = new System.Drawing.Point(52, 317);
+            this.btnCertificadoPrimaria.Location = new System.Drawing.Point(267, 312);
             this.btnCertificadoPrimaria.Name = "btnCertificadoPrimaria";
             this.btnCertificadoPrimaria.Size = new System.Drawing.Size(170, 23);
             this.btnCertificadoPrimaria.TabIndex = 14;
@@ -206,7 +206,7 @@
             // 
             // txtCertificadoPrimaria
             // 
-            this.txtCertificadoPrimaria.Location = new System.Drawing.Point(228, 318);
+            this.txtCertificadoPrimaria.Location = new System.Drawing.Point(443, 313);
             this.txtCertificadoPrimaria.Name = "txtCertificadoPrimaria";
             this.txtCertificadoPrimaria.ReadOnly = true;
             this.txtCertificadoPrimaria.Size = new System.Drawing.Size(73, 23);

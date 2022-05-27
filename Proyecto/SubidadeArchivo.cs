@@ -199,6 +199,8 @@ namespace ProcesoIncripcion
             {
                 MessageBox.Show("Error Faltan Archivo a subir");
             }
+
+            this.Close();
         }
     }
 }
