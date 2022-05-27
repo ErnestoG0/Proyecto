@@ -22,7 +22,7 @@ namespace Proyecto
             {
 
                 //Declarar la cadena (objeto) de conexión al servidor   
-                cn = new SqlConnection("Data Source=localhost;Initial Catalog=Escuela;Integrated Security=True");
+                cn = new SqlConnection("Data Source=PC\\SQLEXPRESS;Initial Catalog=Escuela;Integrated Security=True");
                 cn.Open();
                 //MessageBox.Show("Conectado");
 

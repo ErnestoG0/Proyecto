@@ -39,17 +39,7 @@ namespace Proyecto
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //OpenFileDialog BuscarImagen = new OpenFileDialog(); BuscarImagen.Filter = "Archivos de Imagen|*.jpg";
 
-            //BuscarImagen.FileName = "";
-            //BuscarImagen.Title = "Titulo del Dialogo";
-            //BuscarImagen.InitialDirectory = "C:\\";
-            //if (BuscarImagen.ShowDialog() == DialogResult.OK)
-            //{
-
-            //    String Direccion = BuscarImagen.FileName; this.pictureBox1.ImageLocation = Direccion;
-            //    pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            //}
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -65,6 +55,13 @@ namespace Proyecto
                 MessageBox.Show("Rellene todo los campos");
             }
            
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Menu menu = new Menu();
+            menu.Show();
         }
     }
 }

@@ -114,6 +114,7 @@
             this.btnInscripcion.Size = new System.Drawing.Size(116, 118);
             this.btnInscripcion.TabIndex = 5;
             this.btnInscripcion.UseVisualStyleBackColor = false;
+            this.btnInscripcion.Click += new System.EventHandler(this.btnInscripcion_Click);
             // 
             // btnAltaBajaModificacion
             // 

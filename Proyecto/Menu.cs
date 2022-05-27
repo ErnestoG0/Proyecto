@@ -42,5 +42,12 @@ namespace Proyecto
             modificacionAlumnos.Show();
             this.Close();
         }
+
+        private void btnInscripcion_Click(object sender, EventArgs e)
+        {
+            AltaAlumnos alta = new AltaAlumnos();
+            alta.Show();
+            this.Close();
+        }
     }
 }
