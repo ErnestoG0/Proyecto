@@ -33,6 +33,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pb_HistorialAcademico = new System.Windows.Forms.PictureBox();
+            this.btnInscripcion = new System.Windows.Forms.Button();
+            this.btnAltaBajaModificacion = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Certificado)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_HistorialAcademico)).BeginInit();
@@ -44,7 +46,7 @@
             this.pb_Certificado.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pb_Certificado.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pb_Certificado.Image = global::Proyecto.Properties.Resources.certificado;
-            this.pb_Certificado.Location = new System.Drawing.Point(12, 79);
+            this.pb_Certificado.Location = new System.Drawing.Point(424, 79);
             this.pb_Certificado.Name = "pb_Certificado";
             this.pb_Certificado.Size = new System.Drawing.Size(119, 118);
             this.pb_Certificado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -90,13 +92,35 @@
             this.pb_HistorialAcademico.BackColor = System.Drawing.Color.Gold;
             this.pb_HistorialAcademico.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pb_HistorialAcademico.Image = global::Proyecto.Properties.Resources.carpeta;
-            this.pb_HistorialAcademico.Location = new System.Drawing.Point(151, 79);
+            this.pb_HistorialAcademico.Location = new System.Drawing.Point(288, 79);
             this.pb_HistorialAcademico.Name = "pb_HistorialAcademico";
             this.pb_HistorialAcademico.Size = new System.Drawing.Size(119, 118);
             this.pb_HistorialAcademico.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pb_HistorialAcademico.TabIndex = 4;
             this.pb_HistorialAcademico.TabStop = false;
             this.pb_HistorialAcademico.Click += new System.EventHandler(this.pb_HistorialAcademico_Click);
+            // 
+            // btnInscripcion
+            // 
+            this.btnInscripcion.BackColor = System.Drawing.Color.Gold;
+            this.btnInscripcion.BackgroundImage = global::Proyecto.Properties.Resources.inscripcion;
+            this.btnInscripcion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnInscripcion.Location = new System.Drawing.Point(12, 79);
+            this.btnInscripcion.Name = "btnInscripcion";
+            this.btnInscripcion.Size = new System.Drawing.Size(119, 118);
+            this.btnInscripcion.TabIndex = 5;
+            this.btnInscripcion.UseVisualStyleBackColor = false;
+            // 
+            // btnAltaBajaModificacion
+            // 
+            this.btnAltaBajaModificacion.BackColor = System.Drawing.Color.Gold;
+            this.btnAltaBajaModificacion.BackgroundImage = global::Proyecto.Properties.Resources.formulario_de_inscripcion;
+            this.btnAltaBajaModificacion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnAltaBajaModificacion.Location = new System.Drawing.Point(147, 79);
+            this.btnAltaBajaModificacion.Name = "btnAltaBajaModificacion";
+            this.btnAltaBajaModificacion.Size = new System.Drawing.Size(119, 118);
+            this.btnAltaBajaModificacion.TabIndex = 6;
+            this.btnAltaBajaModificacion.UseVisualStyleBackColor = false;
             // 
             // Menu
             // 
@@ -106,6 +130,8 @@
             this.BackgroundImage = global::Proyecto.Properties.Resources.fondoCertificado;
             this.ClientSize = new System.Drawing.Size(1264, 681);
             this.ControlBox = false;
+            this.Controls.Add(this.btnAltaBajaModificacion);
+            this.Controls.Add(this.btnInscripcion);
             this.Controls.Add(this.pb_HistorialAcademico);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_Salir);
@@ -129,5 +155,7 @@
         private Label label1;
         private PictureBox pictureBox1;
         private PictureBox pb_HistorialAcademico;
+        private Button btnInscripcion;
+        private Button btnAltaBajaModificacion;
     }
 }
