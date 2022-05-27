@@ -158,6 +158,7 @@
             // textcurp
             // 
             this.textcurp.Location = new System.Drawing.Point(12, 210);
+            this.textcurp.MaxLength = 18;
             this.textcurp.Name = "textcurp";
             this.textcurp.Size = new System.Drawing.Size(328, 23);
             this.textcurp.TabIndex = 24;

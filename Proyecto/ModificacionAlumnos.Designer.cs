@@ -123,7 +123,8 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.BackColor = System.Drawing.Color.White;
+            this.checkBox1.BackColor = System.Drawing.Color.Transparent;
+            this.checkBox1.ForeColor = System.Drawing.SystemColors.Control;
             this.checkBox1.Location = new System.Drawing.Point(21, 86);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(117, 19);
@@ -135,7 +136,8 @@
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.BackColor = System.Drawing.Color.White;
+            this.checkBox2.BackColor = System.Drawing.Color.Transparent;
+            this.checkBox2.ForeColor = System.Drawing.SystemColors.Control;
             this.checkBox2.Location = new System.Drawing.Point(21, 136);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(118, 19);
@@ -147,7 +149,8 @@
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
-            this.checkBox3.BackColor = System.Drawing.Color.White;
+            this.checkBox3.BackColor = System.Drawing.Color.Transparent;
+            this.checkBox3.ForeColor = System.Drawing.SystemColors.Control;
             this.checkBox3.Location = new System.Drawing.Point(21, 181);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(75, 19);
@@ -159,7 +162,8 @@
             // checkBox4
             // 
             this.checkBox4.AutoSize = true;
-            this.checkBox4.BackColor = System.Drawing.Color.White;
+            this.checkBox4.BackColor = System.Drawing.Color.Transparent;
+            this.checkBox4.ForeColor = System.Drawing.SystemColors.Control;
             this.checkBox4.Location = new System.Drawing.Point(21, 231);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(58, 19);
@@ -171,7 +175,8 @@
             // checkBox8
             // 
             this.checkBox8.AutoSize = true;
-            this.checkBox8.BackColor = System.Drawing.Color.White;
+            this.checkBox8.BackColor = System.Drawing.Color.Transparent;
+            this.checkBox8.ForeColor = System.Drawing.SystemColors.Control;
             this.checkBox8.Location = new System.Drawing.Point(21, 304);
             this.checkBox8.Name = "checkBox8";
             this.checkBox8.Size = new System.Drawing.Size(56, 19);
@@ -183,7 +188,8 @@
             // checkBox9
             // 
             this.checkBox9.AutoSize = true;
-            this.checkBox9.BackColor = System.Drawing.Color.White;
+            this.checkBox9.BackColor = System.Drawing.Color.Transparent;
+            this.checkBox9.ForeColor = System.Drawing.SystemColors.Control;
             this.checkBox9.Location = new System.Drawing.Point(165, 231);
             this.checkBox9.Name = "checkBox9";
             this.checkBox9.Size = new System.Drawing.Size(59, 19);
@@ -212,7 +218,8 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.White;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.ForeColor = System.Drawing.SystemColors.Control;
             this.label5.Location = new System.Drawing.Point(23, 18);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(37, 15);
