@@ -52,7 +52,7 @@ namespace Proyecto
 
             int y = 20;
 
-            e.Graphics.DrawString("SISTEMA EDUCATIVO NACIONAL", font, Brushes.Black, new RectangleF(100, y += 40, 900, 50));
+            e.Graphics.DrawString("SISTEMA EDUCATIVO NACIONAL", font, Brushes.Black, new RectangleF(80, y += 40, 900, 50));
             e.Graphics.DrawString("-Secretaria de Educacion Publica y Cultura del Estado de Sinaloa ", font2, Brushes.Black, new RectangleF(0, y += 80, 900, 40));
             e.Graphics.DrawString("-Departamento de Registro y Certificacion Escolar ", font2, Brushes.Black, new RectangleF(0, y += 50, 900, 40));
             e.Graphics.DrawString("CERTIFICA QUE:", font2, Brushes.Black, new RectangleF(350, y += 80, 900, 40));

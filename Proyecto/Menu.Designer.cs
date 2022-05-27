@@ -35,6 +35,10 @@
             this.pb_HistorialAcademico = new System.Windows.Forms.PictureBox();
             this.btnInscripcion = new System.Windows.Forms.Button();
             this.btnAltaBajaModificacion = new System.Windows.Forms.Button();
+            this.lblInscripcion = new System.Windows.Forms.Label();
+            this.lblModificacion = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lblCertificacion = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Certificado)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_HistorialAcademico)).BeginInit();
@@ -46,9 +50,9 @@
             this.pb_Certificado.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pb_Certificado.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pb_Certificado.Image = global::Proyecto.Properties.Resources.certificado;
-            this.pb_Certificado.Location = new System.Drawing.Point(424, 79);
+            this.pb_Certificado.Location = new System.Drawing.Point(440, 79);
             this.pb_Certificado.Name = "pb_Certificado";
-            this.pb_Certificado.Size = new System.Drawing.Size(119, 118);
+            this.pb_Certificado.Size = new System.Drawing.Size(128, 118);
             this.pb_Certificado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pb_Certificado.TabIndex = 0;
             this.pb_Certificado.TabStop = false;
@@ -92,7 +96,7 @@
             this.pb_HistorialAcademico.BackColor = System.Drawing.Color.Gold;
             this.pb_HistorialAcademico.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pb_HistorialAcademico.Image = global::Proyecto.Properties.Resources.carpeta;
-            this.pb_HistorialAcademico.Location = new System.Drawing.Point(288, 79);
+            this.pb_HistorialAcademico.Location = new System.Drawing.Point(302, 79);
             this.pb_HistorialAcademico.Name = "pb_HistorialAcademico";
             this.pb_HistorialAcademico.Size = new System.Drawing.Size(119, 118);
             this.pb_HistorialAcademico.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -107,7 +111,7 @@
             this.btnInscripcion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnInscripcion.Location = new System.Drawing.Point(12, 79);
             this.btnInscripcion.Name = "btnInscripcion";
-            this.btnInscripcion.Size = new System.Drawing.Size(119, 118);
+            this.btnInscripcion.Size = new System.Drawing.Size(116, 118);
             this.btnInscripcion.TabIndex = 5;
             this.btnInscripcion.UseVisualStyleBackColor = false;
             // 
@@ -116,12 +120,56 @@
             this.btnAltaBajaModificacion.BackColor = System.Drawing.Color.Gold;
             this.btnAltaBajaModificacion.BackgroundImage = global::Proyecto.Properties.Resources.formulario_de_inscripcion;
             this.btnAltaBajaModificacion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnAltaBajaModificacion.Location = new System.Drawing.Point(147, 79);
+            this.btnAltaBajaModificacion.Location = new System.Drawing.Point(149, 79);
             this.btnAltaBajaModificacion.Name = "btnAltaBajaModificacion";
-            this.btnAltaBajaModificacion.Size = new System.Drawing.Size(119, 118);
+            this.btnAltaBajaModificacion.Size = new System.Drawing.Size(135, 118);
             this.btnAltaBajaModificacion.TabIndex = 6;
             this.btnAltaBajaModificacion.UseVisualStyleBackColor = false;
             this.btnAltaBajaModificacion.Click += new System.EventHandler(this.btnAltaBajaModificacion_Click);
+            // 
+            // lblInscripcion
+            // 
+            this.lblInscripcion.AutoSize = true;
+            this.lblInscripcion.BackColor = System.Drawing.Color.Gold;
+            this.lblInscripcion.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblInscripcion.Location = new System.Drawing.Point(12, 200);
+            this.lblInscripcion.Name = "lblInscripcion";
+            this.lblInscripcion.Size = new System.Drawing.Size(116, 21);
+            this.lblInscripcion.TabIndex = 7;
+            this.lblInscripcion.Text = "Inscripcion";
+            // 
+            // lblModificacion
+            // 
+            this.lblModificacion.AutoSize = true;
+            this.lblModificacion.BackColor = System.Drawing.Color.Gold;
+            this.lblModificacion.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblModificacion.Location = new System.Drawing.Point(149, 200);
+            this.lblModificacion.Name = "lblModificacion";
+            this.lblModificacion.Size = new System.Drawing.Size(135, 42);
+            this.lblModificacion.TabIndex = 8;
+            this.lblModificacion.Text = "Modificacion \r\n   Alumnos";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Gold;
+            this.label4.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(302, 200);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(117, 42);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "  Historial\r\n Academico";
+            // 
+            // lblCertificacion
+            // 
+            this.lblCertificacion.AutoSize = true;
+            this.lblCertificacion.BackColor = System.Drawing.Color.Gold;
+            this.lblCertificacion.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblCertificacion.Location = new System.Drawing.Point(440, 200);
+            this.lblCertificacion.Name = "lblCertificacion";
+            this.lblCertificacion.Size = new System.Drawing.Size(128, 21);
+            this.lblCertificacion.TabIndex = 10;
+            this.lblCertificacion.Text = "Certificacion";
             // 
             // Menu
             // 
@@ -131,6 +179,10 @@
             this.BackgroundImage = global::Proyecto.Properties.Resources.fondoCertificado;
             this.ClientSize = new System.Drawing.Size(1264, 681);
             this.ControlBox = false;
+            this.Controls.Add(this.lblCertificacion);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.lblModificacion);
+            this.Controls.Add(this.lblInscripcion);
             this.Controls.Add(this.btnAltaBajaModificacion);
             this.Controls.Add(this.btnInscripcion);
             this.Controls.Add(this.pb_HistorialAcademico);
@@ -158,5 +210,9 @@
         private PictureBox pb_HistorialAcademico;
         private Button btnInscripcion;
         private Button btnAltaBajaModificacion;
+        private Label lblInscripcion;
+        private Label lblModificacion;
+        private Label label4;
+        private Label lblCertificacion;
     }
 }

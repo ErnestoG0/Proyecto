@@ -57,7 +57,7 @@
             // 
             // btnPagoServicio
             // 
-            this.btnPagoServicio.Location = new System.Drawing.Point(461, 113);
+            this.btnPagoServicio.Location = new System.Drawing.Point(110, 126);
             this.btnPagoServicio.Name = "btnPagoServicio";
             this.btnPagoServicio.Size = new System.Drawing.Size(170, 23);
             this.btnPagoServicio.TabIndex = 0;
@@ -68,10 +68,13 @@
             // lblPagorecibo
             // 
             this.lblPagorecibo.AutoSize = true;
-            this.lblPagorecibo.Location = new System.Drawing.Point(461, 95);
+            this.lblPagorecibo.BackColor = System.Drawing.Color.Transparent;
+            this.lblPagorecibo.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblPagorecibo.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblPagorecibo.Location = new System.Drawing.Point(110, 94);
             this.lblPagorecibo.Name = "lblPagorecibo";
             this.lblPagorecibo.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblPagorecibo.Size = new System.Drawing.Size(73, 15);
+            this.lblPagorecibo.Size = new System.Drawing.Size(157, 29);
             this.lblPagorecibo.TabIndex = 1;
             this.lblPagorecibo.Text = "Pago Recibo";
             // 
@@ -81,7 +84,7 @@
             // 
             // txtPagoIncripcion
             // 
-            this.txtPagoIncripcion.Location = new System.Drawing.Point(637, 113);
+            this.txtPagoIncripcion.Location = new System.Drawing.Point(286, 126);
             this.txtPagoIncripcion.Name = "txtPagoIncripcion";
             this.txtPagoIncripcion.ReadOnly = true;
             this.txtPagoIncripcion.Size = new System.Drawing.Size(73, 23);
@@ -89,7 +92,7 @@
             // 
             // btnActaNacimiento
             // 
-            this.btnActaNacimiento.Location = new System.Drawing.Point(461, 180);
+            this.btnActaNacimiento.Location = new System.Drawing.Point(110, 193);
             this.btnActaNacimiento.Name = "btnActaNacimiento";
             this.btnActaNacimiento.Size = new System.Drawing.Size(170, 23);
             this.btnActaNacimiento.TabIndex = 3;
@@ -99,7 +102,7 @@
             // 
             // btnCurp
             // 
-            this.btnCurp.Location = new System.Drawing.Point(461, 240);
+            this.btnCurp.Location = new System.Drawing.Point(110, 263);
             this.btnCurp.Name = "btnCurp";
             this.btnCurp.Size = new System.Drawing.Size(170, 23);
             this.btnCurp.TabIndex = 4;
@@ -110,26 +113,32 @@
             // lblActa
             // 
             this.lblActa.AutoSize = true;
-            this.lblActa.Location = new System.Drawing.Point(461, 162);
+            this.lblActa.BackColor = System.Drawing.Color.Transparent;
+            this.lblActa.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblActa.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblActa.Location = new System.Drawing.Point(110, 161);
             this.lblActa.Name = "lblActa";
             this.lblActa.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblActa.Size = new System.Drawing.Size(112, 15);
+            this.lblActa.Size = new System.Drawing.Size(243, 29);
             this.lblActa.TabIndex = 5;
             this.lblActa.Text = "Acta de Nacimiento";
             // 
             // lblCurp
             // 
             this.lblCurp.AutoSize = true;
-            this.lblCurp.Location = new System.Drawing.Point(461, 222);
+            this.lblCurp.BackColor = System.Drawing.Color.Transparent;
+            this.lblCurp.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblCurp.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblCurp.Location = new System.Drawing.Point(110, 231);
             this.lblCurp.Name = "lblCurp";
             this.lblCurp.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblCurp.Size = new System.Drawing.Size(33, 15);
+            this.lblCurp.Size = new System.Drawing.Size(70, 29);
             this.lblCurp.TabIndex = 6;
             this.lblCurp.Text = "Curp";
             // 
             // btnDomicilio
             // 
-            this.btnDomicilio.Location = new System.Drawing.Point(461, 296);
+            this.btnDomicilio.Location = new System.Drawing.Point(110, 328);
             this.btnDomicilio.Name = "btnDomicilio";
             this.btnDomicilio.Size = new System.Drawing.Size(170, 23);
             this.btnDomicilio.TabIndex = 7;
@@ -140,16 +149,19 @@
             // lblDomicilio
             // 
             this.lblDomicilio.AutoSize = true;
-            this.lblDomicilio.Location = new System.Drawing.Point(461, 278);
+            this.lblDomicilio.BackColor = System.Drawing.Color.Transparent;
+            this.lblDomicilio.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblDomicilio.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblDomicilio.Location = new System.Drawing.Point(110, 296);
             this.lblDomicilio.Name = "lblDomicilio";
             this.lblDomicilio.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblDomicilio.Size = new System.Drawing.Size(124, 15);
+            this.lblDomicilio.Size = new System.Drawing.Size(268, 29);
             this.lblDomicilio.TabIndex = 8;
             this.lblDomicilio.Text = "Documento Domicilio";
             // 
             // txtActa
             // 
-            this.txtActa.Location = new System.Drawing.Point(637, 180);
+            this.txtActa.Location = new System.Drawing.Point(286, 193);
             this.txtActa.Name = "txtActa";
             this.txtActa.ReadOnly = true;
             this.txtActa.Size = new System.Drawing.Size(73, 23);
@@ -157,7 +169,7 @@
             // 
             // txtDomicilio
             // 
-            this.txtDomicilio.Location = new System.Drawing.Point(637, 296);
+            this.txtDomicilio.Location = new System.Drawing.Point(286, 328);
             this.txtDomicilio.Name = "txtDomicilio";
             this.txtDomicilio.ReadOnly = true;
             this.txtDomicilio.Size = new System.Drawing.Size(73, 23);
@@ -165,7 +177,7 @@
             // 
             // txtCurp
             // 
-            this.txtCurp.Location = new System.Drawing.Point(637, 240);
+            this.txtCurp.Location = new System.Drawing.Point(286, 263);
             this.txtCurp.Name = "txtCurp";
             this.txtCurp.ReadOnly = true;
             this.txtCurp.Size = new System.Drawing.Size(73, 23);
@@ -177,7 +189,7 @@
             // 
             // btnSubirDocumentos
             // 
-            this.btnSubirDocumentos.Location = new System.Drawing.Point(461, 398);
+            this.btnSubirDocumentos.Location = new System.Drawing.Point(110, 453);
             this.btnSubirDocumentos.Name = "btnSubirDocumentos";
             this.btnSubirDocumentos.Size = new System.Drawing.Size(249, 55);
             this.btnSubirDocumentos.TabIndex = 12;
@@ -192,15 +204,18 @@
             // lblCertificado
             // 
             this.lblCertificado.AutoSize = true;
-            this.lblCertificado.Location = new System.Drawing.Point(461, 343);
+            this.lblCertificado.BackColor = System.Drawing.Color.Transparent;
+            this.lblCertificado.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblCertificado.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblCertificado.Location = new System.Drawing.Point(110, 372);
             this.lblCertificado.Name = "lblCertificado";
-            this.lblCertificado.Size = new System.Drawing.Size(128, 15);
+            this.lblCertificado.Size = new System.Drawing.Size(282, 29);
             this.lblCertificado.TabIndex = 13;
             this.lblCertificado.Text = "Certificado de Primaria";
             // 
             // btnCertificadoPrimaria
             // 
-            this.btnCertificadoPrimaria.Location = new System.Drawing.Point(461, 361);
+            this.btnCertificadoPrimaria.Location = new System.Drawing.Point(110, 404);
             this.btnCertificadoPrimaria.Name = "btnCertificadoPrimaria";
             this.btnCertificadoPrimaria.Size = new System.Drawing.Size(170, 23);
             this.btnCertificadoPrimaria.TabIndex = 14;
@@ -210,7 +225,7 @@
             // 
             // txtCertificadoPrimaria
             // 
-            this.txtCertificadoPrimaria.Location = new System.Drawing.Point(637, 362);
+            this.txtCertificadoPrimaria.Location = new System.Drawing.Point(286, 404);
             this.txtCertificadoPrimaria.Name = "txtCertificadoPrimaria";
             this.txtCertificadoPrimaria.ReadOnly = true;
             this.txtCertificadoPrimaria.Size = new System.Drawing.Size(73, 23);
@@ -234,6 +249,7 @@
             this.btnRegresar.Size = new System.Drawing.Size(50, 50);
             this.btnRegresar.TabIndex = 16;
             this.btnRegresar.UseVisualStyleBackColor = false;
+            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
             // 
             // label1
             // 
@@ -261,7 +277,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Proyecto.Properties.Resources.fondoCertificado;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.ClientSize = new System.Drawing.Size(483, 545);
             this.ControlBox = false;
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnRegresar);
@@ -284,6 +300,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "SubidadeArchivo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Control Escolar";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
