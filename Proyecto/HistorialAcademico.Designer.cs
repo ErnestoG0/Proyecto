@@ -106,7 +106,7 @@
             this.dataGridHA.Location = new System.Drawing.Point(195, 174);
             this.dataGridHA.Name = "dataGridHA";
             this.dataGridHA.RowTemplate.Height = 25;
-            this.dataGridHA.Size = new System.Drawing.Size(828, 495);
+            this.dataGridHA.Size = new System.Drawing.Size(1057, 495);
             this.dataGridHA.TabIndex = 6;
             this.dataGridHA.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridHA_CellContentClick);
             // 
