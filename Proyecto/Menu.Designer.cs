@@ -39,18 +39,21 @@
             this.lblModificacion = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.lblCertificacion = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Certificado)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_HistorialAcademico)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // pb_Certificado
             // 
-            this.pb_Certificado.BackColor = System.Drawing.Color.Gold;
+            this.pb_Certificado.BackColor = System.Drawing.Color.Transparent;
             this.pb_Certificado.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pb_Certificado.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pb_Certificado.Image = global::Proyecto.Properties.Resources.certificado;
-            this.pb_Certificado.Location = new System.Drawing.Point(440, 79);
+            this.pb_Certificado.Location = new System.Drawing.Point(628, 315);
             this.pb_Certificado.Name = "pb_Certificado";
             this.pb_Certificado.Size = new System.Drawing.Size(128, 118);
             this.pb_Certificado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -60,7 +63,7 @@
             // 
             // btn_Salir
             // 
-            this.btn_Salir.BackColor = System.Drawing.Color.Gold;
+            this.btn_Salir.BackColor = System.Drawing.Color.Transparent;
             this.btn_Salir.BackgroundImage = global::Proyecto.Properties.Resources.boton;
             this.btn_Salir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btn_Salir.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -93,10 +96,10 @@
             // 
             // pb_HistorialAcademico
             // 
-            this.pb_HistorialAcademico.BackColor = System.Drawing.Color.Gold;
+            this.pb_HistorialAcademico.BackColor = System.Drawing.Color.Transparent;
             this.pb_HistorialAcademico.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pb_HistorialAcademico.Image = global::Proyecto.Properties.Resources.carpeta;
-            this.pb_HistorialAcademico.Location = new System.Drawing.Point(302, 79);
+            this.pb_HistorialAcademico.Location = new System.Drawing.Point(490, 315);
             this.pb_HistorialAcademico.Name = "pb_HistorialAcademico";
             this.pb_HistorialAcademico.Size = new System.Drawing.Size(119, 118);
             this.pb_HistorialAcademico.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -106,10 +109,10 @@
             // 
             // btnInscripcion
             // 
-            this.btnInscripcion.BackColor = System.Drawing.Color.Gold;
+            this.btnInscripcion.BackColor = System.Drawing.Color.Transparent;
             this.btnInscripcion.BackgroundImage = global::Proyecto.Properties.Resources.inscripcion;
             this.btnInscripcion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnInscripcion.Location = new System.Drawing.Point(12, 79);
+            this.btnInscripcion.Location = new System.Drawing.Point(200, 315);
             this.btnInscripcion.Name = "btnInscripcion";
             this.btnInscripcion.Size = new System.Drawing.Size(116, 118);
             this.btnInscripcion.TabIndex = 5;
@@ -118,10 +121,10 @@
             // 
             // btnAltaBajaModificacion
             // 
-            this.btnAltaBajaModificacion.BackColor = System.Drawing.Color.Gold;
+            this.btnAltaBajaModificacion.BackColor = System.Drawing.Color.Transparent;
             this.btnAltaBajaModificacion.BackgroundImage = global::Proyecto.Properties.Resources.formulario_de_inscripcion;
             this.btnAltaBajaModificacion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnAltaBajaModificacion.Location = new System.Drawing.Point(149, 79);
+            this.btnAltaBajaModificacion.Location = new System.Drawing.Point(337, 315);
             this.btnAltaBajaModificacion.Name = "btnAltaBajaModificacion";
             this.btnAltaBajaModificacion.Size = new System.Drawing.Size(135, 118);
             this.btnAltaBajaModificacion.TabIndex = 6;
@@ -131,46 +134,74 @@
             // lblInscripcion
             // 
             this.lblInscripcion.AutoSize = true;
-            this.lblInscripcion.BackColor = System.Drawing.Color.Gold;
-            this.lblInscripcion.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblInscripcion.Location = new System.Drawing.Point(12, 200);
+            this.lblInscripcion.BackColor = System.Drawing.Color.Transparent;
+            this.lblInscripcion.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblInscripcion.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblInscripcion.Location = new System.Drawing.Point(200, 436);
             this.lblInscripcion.Name = "lblInscripcion";
-            this.lblInscripcion.Size = new System.Drawing.Size(116, 21);
+            this.lblInscripcion.Size = new System.Drawing.Size(115, 25);
             this.lblInscripcion.TabIndex = 7;
             this.lblInscripcion.Text = "Inscripcion";
             // 
             // lblModificacion
             // 
             this.lblModificacion.AutoSize = true;
-            this.lblModificacion.BackColor = System.Drawing.Color.Gold;
-            this.lblModificacion.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblModificacion.Location = new System.Drawing.Point(149, 200);
+            this.lblModificacion.BackColor = System.Drawing.Color.Transparent;
+            this.lblModificacion.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblModificacion.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblModificacion.Location = new System.Drawing.Point(337, 436);
             this.lblModificacion.Name = "lblModificacion";
-            this.lblModificacion.Size = new System.Drawing.Size(135, 42);
+            this.lblModificacion.Size = new System.Drawing.Size(142, 50);
             this.lblModificacion.TabIndex = 8;
             this.lblModificacion.Text = "Modificacion \r\n   Alumnos";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Gold;
-            this.label4.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(302, 200);
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.ForeColor = System.Drawing.SystemColors.Control;
+            this.label4.Location = new System.Drawing.Point(490, 436);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(117, 42);
+            this.label4.Size = new System.Drawing.Size(126, 50);
             this.label4.TabIndex = 9;
             this.label4.Text = "  Historial\r\n Academico";
             // 
             // lblCertificacion
             // 
             this.lblCertificacion.AutoSize = true;
-            this.lblCertificacion.BackColor = System.Drawing.Color.Gold;
-            this.lblCertificacion.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblCertificacion.Location = new System.Drawing.Point(440, 200);
+            this.lblCertificacion.BackColor = System.Drawing.Color.Transparent;
+            this.lblCertificacion.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblCertificacion.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblCertificacion.Location = new System.Drawing.Point(628, 436);
             this.lblCertificacion.Name = "lblCertificacion";
-            this.lblCertificacion.Size = new System.Drawing.Size(128, 21);
+            this.lblCertificacion.Size = new System.Drawing.Size(133, 25);
             this.lblCertificacion.TabIndex = 10;
             this.lblCertificacion.Text = "Certificacion";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::Proyecto.Properties.Resources.presupuesto;
+            this.pictureBox2.Location = new System.Drawing.Point(776, 315);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(135, 118);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 11;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.SystemColors.Control;
+            this.label2.Location = new System.Drawing.Point(804, 436);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(87, 25);
+            this.label2.TabIndex = 12;
+            this.label2.Text = "Nomina";
             // 
             // Menu
             // 
@@ -180,6 +211,8 @@
             this.BackgroundImage = global::Proyecto.Properties.Resources.fondoCertificado;
             this.ClientSize = new System.Drawing.Size(1264, 681);
             this.ControlBox = false;
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.lblCertificacion);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.lblModificacion);
@@ -197,6 +230,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pb_Certificado)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_HistorialAcademico)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -215,5 +249,7 @@
         private Label lblModificacion;
         private Label label4;
         private Label lblCertificacion;
+        private PictureBox pictureBox2;
+        private Label label2;
     }
 }

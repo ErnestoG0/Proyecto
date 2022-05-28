@@ -29,25 +29,25 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.txtFechaExp = new System.Windows.Forms.TextBox();
             this.txtIDNomina = new System.Windows.Forms.TextBox();
-            this.splitter1 = new System.Windows.Forms.Splitter();
-            this.splitter2 = new System.Windows.Forms.Splitter();
-            this.splitter3 = new System.Windows.Forms.Splitter();
-            this.splitter4 = new System.Windows.Forms.Splitter();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.txtIDEmpleado = new System.Windows.Forms.TextBox();
-            this.txtNombre = new System.Windows.Forms.TextBox();
-            this.txtDescripcion = new System.Windows.Forms.TextBox();
+            this.txtFechaExp = new System.Windows.Forms.TextBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.txtMonto = new System.Windows.Forms.TextBox();
+            this.txtDescripcion = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.txtIDEmpleado = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.splitter4 = new System.Windows.Forms.Splitter();
+            this.splitter3 = new System.Windows.Forms.Splitter();
+            this.splitter2 = new System.Windows.Forms.Splitter();
+            this.splitter1 = new System.Windows.Forms.Splitter();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.btnEnviar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
@@ -70,41 +70,19 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Solicitud de Nomina";
             // 
-            // label1
+            // txtIDNomina
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 19);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(151, 15);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Escuela Secundaria Tecnica";
+            this.txtIDNomina.Location = new System.Drawing.Point(467, 42);
+            this.txtIDNomina.Name = "txtIDNomina";
+            this.txtIDNomina.Size = new System.Drawing.Size(100, 23);
+            this.txtIDNomina.TabIndex = 6;
             // 
-            // label2
+            // txtFechaExp
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 42);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(119, 15);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Documento: Nomina";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(335, 19);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(120, 15);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Fecha de Expedición: ";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(318, 45);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(137, 15);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Codigo de seguimiento: ";
+            this.txtFechaExp.Location = new System.Drawing.Point(466, 15);
+            this.txtFechaExp.Name = "txtFechaExp";
+            this.txtFechaExp.Size = new System.Drawing.Size(100, 23);
+            this.txtFechaExp.TabIndex = 5;
             // 
             // groupBox2
             // 
@@ -127,78 +105,35 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Datos";
             // 
-            // txtFechaExp
+            // txtMonto
             // 
-            this.txtFechaExp.Location = new System.Drawing.Point(466, 15);
-            this.txtFechaExp.Name = "txtFechaExp";
-            this.txtFechaExp.Size = new System.Drawing.Size(100, 23);
-            this.txtFechaExp.TabIndex = 5;
+            this.txtMonto.Location = new System.Drawing.Point(487, 47);
+            this.txtMonto.Name = "txtMonto";
+            this.txtMonto.Size = new System.Drawing.Size(100, 23);
+            this.txtMonto.TabIndex = 11;
             // 
-            // txtIDNomina
+            // txtDescripcion
             // 
-            this.txtIDNomina.Location = new System.Drawing.Point(467, 42);
-            this.txtIDNomina.Name = "txtIDNomina";
-            this.txtIDNomina.Size = new System.Drawing.Size(100, 23);
-            this.txtIDNomina.TabIndex = 6;
+            this.txtDescripcion.Location = new System.Drawing.Point(277, 47);
+            this.txtDescripcion.Multiline = true;
+            this.txtDescripcion.Name = "txtDescripcion";
+            this.txtDescripcion.Size = new System.Drawing.Size(198, 174);
+            this.txtDescripcion.TabIndex = 10;
             // 
-            // splitter1
+            // txtNombre
             // 
-            this.splitter1.Location = new System.Drawing.Point(3, 19);
-            this.splitter1.Name = "splitter1";
-            this.splitter1.Size = new System.Drawing.Size(106, 217);
-            this.splitter1.TabIndex = 0;
-            this.splitter1.TabStop = false;
+            this.txtNombre.Location = new System.Drawing.Point(116, 46);
+            this.txtNombre.Multiline = true;
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(149, 72);
+            this.txtNombre.TabIndex = 9;
             // 
-            // splitter2
+            // txtIDEmpleado
             // 
-            this.splitter2.Location = new System.Drawing.Point(109, 19);
-            this.splitter2.Name = "splitter2";
-            this.splitter2.Size = new System.Drawing.Size(162, 217);
-            this.splitter2.TabIndex = 1;
-            this.splitter2.TabStop = false;
-            // 
-            // splitter3
-            // 
-            this.splitter3.Location = new System.Drawing.Point(271, 19);
-            this.splitter3.Name = "splitter3";
-            this.splitter3.Size = new System.Drawing.Size(210, 217);
-            this.splitter3.TabIndex = 2;
-            this.splitter3.TabStop = false;
-            // 
-            // splitter4
-            // 
-            this.splitter4.Location = new System.Drawing.Point(481, 19);
-            this.splitter4.Name = "splitter4";
-            this.splitter4.Size = new System.Drawing.Size(114, 217);
-            this.splitter4.TabIndex = 3;
-            this.splitter4.TabStop = false;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(19, 28);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(74, 15);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "ID empleado";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(138, 28);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(105, 15);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Nombre completo";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(338, 29);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(69, 15);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "Descripción";
+            this.txtIDEmpleado.Location = new System.Drawing.Point(6, 46);
+            this.txtIDEmpleado.Name = "txtIDEmpleado";
+            this.txtIDEmpleado.Size = new System.Drawing.Size(100, 23);
+            this.txtIDEmpleado.TabIndex = 8;
             // 
             // label8
             // 
@@ -209,35 +144,100 @@
             this.label8.TabIndex = 7;
             this.label8.Text = "Monto";
             // 
-            // txtIDEmpleado
+            // label7
             // 
-            this.txtIDEmpleado.Location = new System.Drawing.Point(6, 46);
-            this.txtIDEmpleado.Name = "txtIDEmpleado";
-            this.txtIDEmpleado.Size = new System.Drawing.Size(100, 23);
-            this.txtIDEmpleado.TabIndex = 8;
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(338, 29);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(69, 15);
+            this.label7.TabIndex = 6;
+            this.label7.Text = "Descripción";
             // 
-            // txtNombre
+            // label6
             // 
-            this.txtNombre.Location = new System.Drawing.Point(116, 46);
-            this.txtNombre.Multiline = true;
-            this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(149, 72);
-            this.txtNombre.TabIndex = 9;
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(138, 28);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(105, 15);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Nombre completo";
             // 
-            // txtDescripcion
+            // label5
             // 
-            this.txtDescripcion.Location = new System.Drawing.Point(277, 47);
-            this.txtDescripcion.Multiline = true;
-            this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(198, 174);
-            this.txtDescripcion.TabIndex = 10;
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(19, 28);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(74, 15);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "ID empleado";
             // 
-            // txtMonto
+            // splitter4
             // 
-            this.txtMonto.Location = new System.Drawing.Point(487, 47);
-            this.txtMonto.Name = "txtMonto";
-            this.txtMonto.Size = new System.Drawing.Size(100, 23);
-            this.txtMonto.TabIndex = 11;
+            this.splitter4.Location = new System.Drawing.Point(481, 19);
+            this.splitter4.Name = "splitter4";
+            this.splitter4.Size = new System.Drawing.Size(114, 217);
+            this.splitter4.TabIndex = 3;
+            this.splitter4.TabStop = false;
+            // 
+            // splitter3
+            // 
+            this.splitter3.Location = new System.Drawing.Point(271, 19);
+            this.splitter3.Name = "splitter3";
+            this.splitter3.Size = new System.Drawing.Size(210, 217);
+            this.splitter3.TabIndex = 2;
+            this.splitter3.TabStop = false;
+            // 
+            // splitter2
+            // 
+            this.splitter2.Location = new System.Drawing.Point(109, 19);
+            this.splitter2.Name = "splitter2";
+            this.splitter2.Size = new System.Drawing.Size(162, 217);
+            this.splitter2.TabIndex = 1;
+            this.splitter2.TabStop = false;
+            // 
+            // splitter1
+            // 
+            this.splitter1.Location = new System.Drawing.Point(3, 19);
+            this.splitter1.Name = "splitter1";
+            this.splitter1.Size = new System.Drawing.Size(106, 217);
+            this.splitter1.TabIndex = 0;
+            this.splitter1.TabStop = false;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(318, 45);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(137, 15);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Codigo de seguimiento: ";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(335, 19);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(121, 15);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Fecha de Expedición: ";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 42);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(119, 15);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Documento: Nomina";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 19);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(149, 15);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Escuela Secundaria Tecnica";
             // 
             // btnEnviar
             // 
@@ -264,10 +264,12 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(610, 384);
+            this.ControlBox = false;
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnEnviar);
             this.Controls.Add(this.groupBox1);
             this.Name = "ProcesoNomina";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "ProcesoNomina";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

@@ -49,5 +49,12 @@ namespace Proyecto
             alta.Show();
             this.Close();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            ProcesoNomina nomina = new ProcesoNomina();
+            nomina.Show();
+        }
     }
 }
