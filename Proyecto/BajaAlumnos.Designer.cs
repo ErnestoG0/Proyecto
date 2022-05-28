@@ -157,7 +157,7 @@
             this.Controls.Add(this.btnBorrar);
             this.Controls.Add(this.pictureBox1);
             this.Name = "BajaAlumnos";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Control Escolar";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

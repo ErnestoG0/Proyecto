@@ -299,7 +299,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "ProcesoNomina";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ProcesoNomina";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
