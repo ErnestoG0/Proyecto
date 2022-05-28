@@ -166,24 +166,25 @@ namespace Proyecto
             return  salida = "0";
             
         }
-        public string GenerarNomina(string ID, string Descripcion, string Monto, string Fecha, string IDNomina)
+        public string GenerarNomina(string ID,string Nombre, string Descripcion, string Monto, string Fecha, string IDNomina)
         {
             string salida = "Se registro una nomina";
             try
             {
                 //Crear un Objeto comando
-                SqlCommand cmd = new SqlCommand("dbo.Registrar_ALumno", cn);
+                SqlCommand cmd = new SqlCommand("dbo.GenerarNomina", cn);
 
                 //Indicar que sera Store Procedure
 
                 cmd.CommandType = CommandType.StoredProcedure;
 
                 //se limpian los parámetros
-                cmd.Parameters.AddWithValue("@AEID", ID);
-                cmd.Parameters.AddWithValue("@DescripcionNom ", Descripcion);
-                cmd.Parameters.AddWithValue("@MontoNomina ", Monto);
-                cmd.Parameters.AddWithValue("@FechaEmitida", Fecha);
-                cmd.Parameters.AddWithValue("@NominaID", IDNomina);
+                cmd.Parameters.AddWithValue("@Codigo", IDNomina);
+                cmd.Parameters.AddWithValue("@Id ", ID);
+                cmd.Parameters.AddWithValue("@Nombre", Nombre);
+                cmd.Parameters.AddWithValue("@Descripcion ", Descripcion);
+                cmd.Parameters.AddWithValue("@Monto", Monto);
+                cmd.Parameters.AddWithValue("@Fecha", Fecha);
                 //Ejecutar la sentencia sql en el servidor
                 cmd.ExecuteNonQuery();
 

@@ -28,9 +28,9 @@ namespace Proyecto
             else
             {
                 Conexion c = new Conexion();
-                MessageBox.Show(c.GenerarNomina(txtIDEmpleado.Text,txtDescripcion.Text,txtMonto.Text,txtFechaExp.Text,txtIDNomina.Text)); // int IDNomina
+                MessageBox.Show(c.GenerarNomina(txtIDEmpleado.Text,txtNombre.Text,txtDescripcion.Text,txtMonto.Text,txtFechaExp.Text,txtIDNomina.Text)); // int IDNomina
                 //Generar destino y formatos
-                FileStream fs = new FileStream(@"\Downloads\Nomina PDF.pdf", FileMode.Create);
+                FileStream fs = new FileStream(@"C:\Nomina PDF.pdf", FileMode.Create);
                 Document doc = new Document(PageSize.A5, 5, 5, 5, 5);
                 PdfWriter PW = PdfWriter.GetInstance(doc, fs);
                 doc.Open();
