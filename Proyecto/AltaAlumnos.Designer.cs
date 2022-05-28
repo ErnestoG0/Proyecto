@@ -93,7 +93,6 @@
             this.label1.Size = new System.Drawing.Size(99, 15);
             this.label1.TabIndex = 10;
             this.label1.Text = "Apellido Materno";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using Microsoft.Data.SqlClient;
 using System.Linq;
 using System.Text;
-using System.Configuration;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Data;
@@ -23,7 +22,7 @@ namespace Proyecto
             {
 
                 //Declarar la cadena (objeto) de conexión al servidor   
-                cn = new SqlConnection(ConfigurationManager.ConnectionStrings["conexion"].ConnectionString);
+                cn = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\DB\\AdmiEscolar.mdf;Integrated Security=True;Connect Timeout=30");
                 cn.Open();
                 //MessageBox.Show("Conectado");
 
