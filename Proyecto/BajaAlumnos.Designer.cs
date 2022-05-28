@@ -35,15 +35,18 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnBorrar = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.groupBox1.BackColor = System.Drawing.Color.Khaki;
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Location = new System.Drawing.Point(13, 6);
+            this.groupBox1.Location = new System.Drawing.Point(13, 52);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -78,7 +81,7 @@
             // 
             // txtID
             // 
-            this.txtID.Location = new System.Drawing.Point(127, 106);
+            this.txtID.Location = new System.Drawing.Point(127, 152);
             this.txtID.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtID.Name = "txtID";
             this.txtID.Size = new System.Drawing.Size(262, 23);
@@ -87,7 +90,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 106);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.ForeColor = System.Drawing.SystemColors.Control;
+            this.label1.Location = new System.Drawing.Point(13, 152);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(98, 15);
@@ -97,42 +102,68 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(262, 190);
+            this.btnCancelar.BackColor = System.Drawing.Color.Gold;
+            this.btnCancelar.Location = new System.Drawing.Point(234, 236);
             this.btnCancelar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(88, 27);
             this.btnCancelar.TabIndex = 61;
             this.btnCancelar.Text = "Cancelar";
-            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.UseVisualStyleBackColor = false;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnBorrar
             // 
-            this.btnBorrar.Location = new System.Drawing.Point(127, 190);
+            this.btnBorrar.BackColor = System.Drawing.Color.Gold;
+            this.btnBorrar.Location = new System.Drawing.Point(99, 236);
             this.btnBorrar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnBorrar.Name = "btnBorrar";
             this.btnBorrar.Size = new System.Drawing.Size(88, 27);
             this.btnBorrar.TabIndex = 62;
             this.btnBorrar.Text = "Borrar";
-            this.btnBorrar.UseVisualStyleBackColor = true;
+            this.btnBorrar.UseVisualStyleBackColor = false;
             this.btnBorrar.Click += new System.EventHandler(this.btnBorrar_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Gold;
+            this.label4.Font = new System.Drawing.Font("Bookman Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(151, 9);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(132, 21);
+            this.label4.TabIndex = 66;
+            this.label4.Text = "Baja Alumno";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Gold;
+            this.pictureBox1.Location = new System.Drawing.Point(1, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(437, 46);
+            this.pictureBox1.TabIndex = 67;
+            this.pictureBox1.TabStop = false;
             // 
             // BajaAlumnos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(437, 240);
+            this.BackgroundImage = global::Proyecto.Properties.Resources.fondoCertificado;
+            this.ClientSize = new System.Drawing.Size(437, 275);
             this.ControlBox = false;
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.txtID);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnBorrar);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "BajaAlumnos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "BajaAlumnos";
+            this.Text = "Control Escolar";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -148,5 +179,7 @@
         private Label label1;
         private Button btnCancelar;
         private Button btnBorrar;
+        private Label label4;
+        private PictureBox pictureBox1;
     }
 }

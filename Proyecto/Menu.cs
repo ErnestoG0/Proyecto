@@ -56,5 +56,12 @@ namespace Proyecto
             ProcesoNomina nomina = new ProcesoNomina();
             nomina.Show();
         }
+
+        private void btnBajaEstudiante_Click(object sender, EventArgs e)
+        {
+            BajaAlumnos bajaAlumnos = new BajaAlumnos();
+            bajaAlumnos.Show();
+            this.Close();
+        }
     }
 }
