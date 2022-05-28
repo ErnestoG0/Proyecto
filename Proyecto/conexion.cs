@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Microsoft.Data.SqlClient;
 using System.Linq;
 using System.Text;
+using System.Configuration;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Data;
@@ -22,7 +23,7 @@ namespace Proyecto
             {
 
                 //Declarar la cadena (objeto) de conexión al servidor   
-                cn = new SqlConnection("Data Source=PC\\SQLEXPRESS;Initial Catalog=Escuela;Integrated Security=True");
+                cn = new SqlConnection(ConfigurationManager.ConnectionStrings["conexion"].ConnectionString);
                 cn.Open();
                 //MessageBox.Show("Conectado");
 
