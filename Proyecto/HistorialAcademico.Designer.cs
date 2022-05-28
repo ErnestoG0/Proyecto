@@ -34,18 +34,20 @@
             this.txt_curph = new System.Windows.Forms.TextBox();
             this.pb_RegresarMenu = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.dataGridHA = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.pb_RegresarMenu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridHA)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Gold;
-            this.label1.Font = new System.Drawing.Font("Bookman Old Style", 30.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(68, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(419, 46);
+            this.label1.Size = new System.Drawing.Size(388, 47);
             this.label1.TabIndex = 0;
             this.label1.Text = "Historial Academico";
             // 
@@ -98,11 +100,22 @@
             this.pictureBox2.TabIndex = 5;
             this.pictureBox2.TabStop = false;
             // 
+            // dataGridHA
+            // 
+            this.dataGridHA.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridHA.Location = new System.Drawing.Point(195, 174);
+            this.dataGridHA.Name = "dataGridHA";
+            this.dataGridHA.RowTemplate.Height = 25;
+            this.dataGridHA.Size = new System.Drawing.Size(828, 495);
+            this.dataGridHA.TabIndex = 6;
+            this.dataGridHA.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridHA_CellContentClick);
+            // 
             // HistorialAcademico
             // 
             this.BackgroundImage = global::Proyecto.Properties.Resources.fondoCertificado;
             this.ClientSize = new System.Drawing.Size(1264, 681);
             this.ControlBox = false;
+            this.Controls.Add(this.dataGridHA);
             this.Controls.Add(this.pb_RegresarMenu);
             this.Controls.Add(this.txt_curph);
             this.Controls.Add(this.btn_buscarh);
@@ -113,6 +126,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)(this.pb_RegresarMenu)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridHA)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -126,5 +140,6 @@
         private TextBox txt_curph;
         private PictureBox pb_RegresarMenu;
         private PictureBox pictureBox2;
+        private DataGridView dataGridHA;
     }
 }

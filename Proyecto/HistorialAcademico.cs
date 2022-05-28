@@ -44,5 +44,10 @@ namespace Proyecto
             menu.Show();
             this.Close();
         }
+
+        private void dataGridHA_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
