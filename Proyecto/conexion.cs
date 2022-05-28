@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
+using System.Configuration;
 using System.Data;
 
 namespace Proyecto
@@ -22,7 +23,7 @@ namespace Proyecto
             {
 
                 //Declarar la cadena (objeto) de conexión al servidor   
-                cn = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\DB\\AdmiEscolar.mdf;Integrated Security=True;Connect Timeout=30");
+                cn = new SqlConnection(Properties.Settings.Default.conexion);
                 cn.Open();
                 //MessageBox.Show("Conectado");
 
@@ -140,7 +141,7 @@ namespace Proyecto
             {
 
                 //Declarar la cadena (objeto) de conexión al servidor   
-                cn = new SqlConnection("Data Source=localhost;Initial Catalog=Escuela;Integrated Security=True");
+                cn = new SqlConnection(Properties.Settings.Default.conexion);
                 cn.Open();
                 //MessageBox.Show("Conectado");
 

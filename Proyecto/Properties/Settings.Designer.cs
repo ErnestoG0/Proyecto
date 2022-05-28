@@ -26,8 +26,9 @@ namespace Proyecto.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\DB\\AdmiEscola" +
-            "r.mdf;Integrated Security=True;Connect Timeout=30")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=PC\\SQLEXPRESS;Initial Catalog=Escuela;Integrated Security=False;Persi" +
+            "st Security Info=True;User ID=Proyecto;Password=Antrax28;Encrypt=True;TrustServe" +
+            "rCertificate=True;User Instance=False;Column Encryption Setting=Disabled")]
         public string conexion {
             get {
                 return ((string)(this["conexion"]));
