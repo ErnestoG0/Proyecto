@@ -54,7 +54,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 156);
+            this.label2.Location = new System.Drawing.Point(12, 98);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(40, 15);
             this.label2.TabIndex = 1;
@@ -72,7 +72,7 @@
             // 
             // txt_curph
             // 
-            this.txt_curph.Location = new System.Drawing.Point(12, 174);
+            this.txt_curph.Location = new System.Drawing.Point(12, 116);
             this.txt_curph.Name = "txt_curph";
             this.txt_curph.Size = new System.Drawing.Size(166, 23);
             this.txt_curph.TabIndex = 3;

@@ -22,7 +22,7 @@ namespace Proyecto
             {
 
                 //Declarar la cadena (objeto) de conexión al servidor   
-                cn = new SqlConnection("Data Source=PC\\SQLEXPRESS;Initial Catalog=Escuela;Integrated Security=True");
+                cn = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\DB\\AdmiEscolar.mdf;Integrated Security=True;Connect Timeout=30");
                 cn.Open();
                 //MessageBox.Show("Conectado");
 

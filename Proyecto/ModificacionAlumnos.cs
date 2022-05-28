@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
-using System.Data;
+using System.Configuration;
 using Microsoft.Data.SqlClient;
 
 namespace Proyecto
@@ -33,17 +33,6 @@ namespace Proyecto
         SqlCommand cmd;
         SqlDataReader dr;
 
-        
-        private void button1_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
             if (textBox1.ReadOnly == true)
@@ -60,11 +49,6 @@ namespace Proyecto
                 textBox2.ReadOnly = true;
         }
 
-        private void textBox4_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
-
         private void checkBox3_CheckedChanged(object sender, EventArgs e)
         {
             if (textBox4.ReadOnly == true)
@@ -79,11 +63,6 @@ namespace Proyecto
                 comboBox1.Enabled = true;
             else
                 comboBox1.Enabled = false;
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void checkBox8_CheckedChanged(object sender, EventArgs e)
@@ -116,18 +95,13 @@ namespace Proyecto
                 MessageBox.Show("El curp que trata de modificar no existe");
         }
 
-        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button4_Click(object sender, EventArgs e)
         {
             try
             {
 
                 //Declarar la cadena (objeto) de conexión al servidor   
-                cn = new SqlConnection("Data Source=localhost;Initial Catalog=AdmiEscolar;Integrated Security=True");
+                cn = new SqlConnection(ConfigurationManager.ConnectionStrings["conexion"].ConnectionString);
                 cn.Open();
                 //MessageBox.Show("Conectado");
 
