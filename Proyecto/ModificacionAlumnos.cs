@@ -101,7 +101,7 @@ namespace Proyecto
             {
 
                 //Declarar la cadena (objeto) de conexión al servidor   
-                cn = new SqlConnection(ConfigurationManager.ConnectionStrings["conexion"].ConnectionString);
+                cn = new SqlConnection(Properties.Settings.Default.conexion);
                 cn.Open();
                 //MessageBox.Show("Conectado");
 
