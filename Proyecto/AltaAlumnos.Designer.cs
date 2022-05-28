@@ -170,6 +170,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ClientSize = new System.Drawing.Size(354, 339);
+            this.ControlBox = false;
             this.Controls.Add(this.textcurp);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -185,6 +186,7 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Name = "AltaAlumnos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "AltaAlumnos";
             this.ResumeLayout(false);
             this.PerformLayout();

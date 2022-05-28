@@ -34,5 +34,12 @@ namespace Proyecto
 
             MessageBox.Show(c.bajaAlumno(txtID.Text));
         }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Menu menu = new Menu();
+            menu.Show();
+        }
     }
 }
