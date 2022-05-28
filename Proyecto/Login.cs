@@ -19,7 +19,7 @@ namespace Proyecto
 
         private void btn_Iniciar_Click(object sender, EventArgs e)
         {
-            if (txt_Usuario.Text == "" && txt_Contraseña.Text == "")
+            if (txt_Usuario.Text == "User" && txt_Contraseña.Text == "Pass")
             {
                 Menu menu = new Menu();
                 menu.Show();
