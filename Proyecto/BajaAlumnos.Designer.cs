@@ -53,7 +53,6 @@
             this.groupBox1.Size = new System.Drawing.Size(408, 93);
             this.groupBox1.TabIndex = 65;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // label2
             // 
@@ -77,7 +76,6 @@
             this.label3.Text = "Una vez eliminado del sistema\r\nno se podra deshacer la accion, solo se podra elim" +
     "inar por Curp.";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // txtID
             // 
