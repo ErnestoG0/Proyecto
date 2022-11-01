@@ -140,6 +140,7 @@ tfoot {
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.0625);
   display: flex;
   padding: 1em;
+  justify-content: space-between;
 }
 
 .form__radio label {
@@ -149,6 +150,36 @@ tfoot {
   gap: 1em;
 }
 
+.etiqueta{
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.tarjeta{
+  padding:5px ;
+  display: flexbox;
+  margin: 3px;
+}
+.tarjeta input#tarjeta{
+  width: 100%;
+}
+.tarjeta input{
+  padding-bottom: 5px;
+}
+.tarjeta input#cvv{
+  width: 50px;
+}
+
+.datos select{
+  border-style: none;
+}
+.datos{
+  display: flex;
+  justify-content: space-between;
+}
+.datos label{
+  margin-right: 5px;
+}
 .header {
   display: flex;
   justify-content: center;
@@ -168,7 +199,7 @@ tfoot {
   background-color: #fbf6f7;
   background-image: linear-gradient(to bottom, #fbf6f7, #fff);
   border-radius: 2em;
-  block-size: 812px;
+  block-size: 850px;
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.0625);
   inline-size: 450px;
   overflow: auto;
