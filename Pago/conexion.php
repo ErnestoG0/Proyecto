@@ -3,10 +3,14 @@
 class Cconexion{
     
     static function ConexionDB(){
-        $server = 'sql.freedb.tech';
-        $username = 'freedb_AdProTienAd';
-        $password = 'hwGsZ7PHU9egUT#';
-        $database = 'freedb_ProTienAd';
+        #$server = 'sql.freedb.tech';
+        #$username = 'freedb_AdProTienAd';
+        #$password = 'hwGsZ7PHU9egUT#';
+        #$database = 'freedb_ProTienAd';
+        $server = 'localhost';
+        $username = 'root';
+        $password = '';
+        $database = '';
         
         try {
             $conn = new PDO("mysql:host=$server;dbname=$database",$username,$password);
