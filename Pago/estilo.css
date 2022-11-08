@@ -123,6 +123,11 @@ tfoot {
   padding: 1em;
 }
 
+.card p{
+  margin:0;
+  
+}
+
 .form {
   display: grid;
   gap: 2em;
