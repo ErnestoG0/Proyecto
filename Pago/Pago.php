@@ -18,9 +18,16 @@
         <h2>Direccion</h2>
 
         <div class="card">
-            <span>
-                --Direccion--
-            </span>
+            <?php
+                include("../Configuracion/conexion.php");
+                $query = "SELECT * FROM contacto WHERE idcontacto=1";
+                $resultado = $conexion->query($query);
+                while ($row = $resultado->fetch_assoc()){    
+            ?>
+            <p><?php echo $row['direccion']; ?></p>
+            <p><?php echo $row['ciudad']; ?></p>
+            <p><?php echo $row['cp']; ?></p>
+            <p><?php echo $row['numero']; }?></p>
         </div>
         </div>
 

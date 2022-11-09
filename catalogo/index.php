@@ -12,8 +12,8 @@
     
     <div class="container">
         <?php
-            include("conexion.php");
-            $query = "SELECT * FROM productos";
+            include("../Configuracion/conexion.php");
+            $query = "SELECT * FROM mujer";
             $resultado = $conexion->query($query);
             while ($row = $resultado->fetch_assoc()){
                 ?>
